@@ -1,0 +1,147 @@
+# -----------------------------------------------------------------------------
+
+# VHDL / FPGA Project .gitignore
+
+# Tailored for Vivado-based VHDL projects
+
+# -----------------------------------------------------------------------------
+
+# Vivado generated project/cache files
+
+*.jou
+*.log
+*.str
+*.zip
+*.backup
+*.bak
+
+# Vivado project generated folders
+
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.srcs/sources_1/ip/
+.gen/
+.Xil/
+
+# Vivado simulation and synthesis outputs
+
+*.wdb
+*.wcfg
+*.vcd
+*.saif
+*.bit
+*.bin
+*.mcs
+*.ltx
+*.dcp
+*.rpt
+*.xml
+*.html
+*.pb
+*.xpe
+*.xsa
+*.hdf
+*.edf
+*.edif
+*.ngc
+*.ngd
+*.ncd
+*.syr
+*.mrp
+*.pad
+*.par
+*.pcf
+*.prm
+*.ptwx
+*.twr
+*.twx
+*.unroutes
+*.xpi
+*.xmsgs
+
+# Vivado block design generated files
+
+*.bd.bak
+*.bxml
+*.ooc
+
+# ModelSim / QuestaSim
+
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vstf
+*.ucdb
+*.qdb
+*.qpg
+*.qtl
+*.qdz
+*.qdf
+*.qsf
+*.qpf
+*.qws
+modelsim.ini
+
+# GHDL
+
+*.cf
+*.ghw
+*.fst
+
+# GTKWave
+
+*.gtkw
+
+# ISim / XSim generated files
+
+xsim.dir/
+*.prj
+*.rlx
+*.tcl~
+webtalk*.jou
+webtalk*.log
+
+# Temporary files
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+
+.vscode/
+.idea/
+
+# Python helper scripts cache, if any
+
+**pycache**/
+*.pyc
+*.pyo
+
+# -----------------------------------------------------------------------------
+
+# Keep source and documentation files
+
+# -----------------------------------------------------------------------------
+
+# Do NOT ignore:
+
+# *.vhd
+
+# *.vhdl
+
+# *.xdc
+
+# *.tcl
+
+# README.md
+
+# docs/
